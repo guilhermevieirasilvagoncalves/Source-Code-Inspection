@@ -36,7 +36,7 @@ public class TicketMachine {
         return saldo;
     }
 
-    public Iterator<Integer> getTroco(int troco) {
+    public Iterator<PapelMoeda> getTroco(int troco) {
         Troco TrocoAtual = new Troco(troco);
         return TrocoAtual.getIterator();
     }
