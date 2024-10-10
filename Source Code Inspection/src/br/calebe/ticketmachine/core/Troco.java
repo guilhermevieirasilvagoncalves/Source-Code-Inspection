@@ -80,7 +80,9 @@ class Troco {
 
         @Override
         public void remove() {
-            next();
+            while(hasNext()){
+                next();
+            }
         }
     }
 }
