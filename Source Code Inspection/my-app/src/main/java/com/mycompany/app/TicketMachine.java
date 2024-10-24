@@ -1,7 +1,7 @@
-package br.calebe.ticketmachine.core;
+package com.mycompany.app;
 
-import br.calebe.ticketmachine.exception.PapelMoedaInvalidaException;
-import br.calebe.ticketmachine.exception.SaldoInsuficienteException;
+import com.mycompany.app.PapelMoedaInvalidaException;
+import com.mycompany.app.SaldoInsuficienteException;
 import java.util.Iterator;
 
 /**
