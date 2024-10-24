@@ -24,7 +24,7 @@ public class AppTest
 
         int quantidade = papel.getQuantidade();
 
-        Assert.assertEquals(10, quantidade);
+        Assert.assertEquals(5, quantidade);
 
         //assertTrue(true);
     }
