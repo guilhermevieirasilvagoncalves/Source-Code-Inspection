@@ -9,23 +9,20 @@ import org.junit.Test;
 public class AppTest 
 {
     
-    
-
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        //assertTrue( true );
+    public void testCriarPapelMoedaValido() {
+        PapelMoeda nota = new PapelMoeda(50, 2); 
+        
+        Assert.assertEquals(50, nota.getValor()); 
+        Assert.assertEquals(2, nota.getQuantidade());
     }
 
-    @Test
-    public void getvalorCerto(){
-
-        PapelMoeda papel = new PapelMoeda(10, 5);
-
-        int quantidade = papel.getQuantidade();
-
-        Assert.assertEquals(10, quantidade);
-
-        //assertTrue(true);
+    @Test(expected = SaldoInsuficienteException.class)
+    public void testeImprimirSaldoInsuficiente() throws SaldoInsuficienteException, PapelMoedaInvalidaException {
+        TicketMachine machine = new TicketMachine(20);
+        machine.inserir(10);
+        machine.imprimir();
     }
+
+
 }
