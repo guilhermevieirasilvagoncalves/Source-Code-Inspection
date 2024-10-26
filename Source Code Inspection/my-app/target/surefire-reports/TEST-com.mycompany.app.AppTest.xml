@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.039" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.043" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app\target\test-classes;C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app\target\classes;C:\Users\kenzo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kenzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app\target\test-classes;C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app\target\classes;C:\Users\kenzo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kenzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\kenzo\AppData\Local\Temp\surefire8118753701252074750\surefirebooter15783951277636599291.jar C:\Users\kenzo\AppData\Local\Temp\surefire8118753701252074750 2024-10-23T22-15-31_325-jvmRun1 surefire15227157916375667539tmp surefire_06865611361731131279tmp"/>
+    <property name="sun.java.command" value="C:\Users\kenzo\AppData\Local\Temp\surefire12258885268062579785\surefirebooter13922437239251864760.jar C:\Users\kenzo\AppData\Local\Temp\surefire12258885268062579785 2024-10-24T22-13-51_206-jvmRun1 surefire9151697672694620143tmp surefire_02095209079140380038tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app\target\test-classes;C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app\target\classes;C:\Users\kenzo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kenzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app\target\test-classes;C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app\target\classes;C:\Users\kenzo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kenzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\kenzo"/>
     <property name="user.language" value="pt"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app"/>
+    <property name="basedir" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kenzo\AppData\Local\Temp\surefire8118753701252074750\surefirebooter15783951277636599291.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kenzo\AppData\Local\Temp\surefire12258885268062579785\surefirebooter13922437239251864760.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\kenzo\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.1"/>
-    <property name="user.dir" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\src\br\calebe\ticketmachine\my-app"/>
+    <property name="user.dir" value="C:\Users\kenzo\OneDrive\Documentos\Code\projects\Source-Code-Inspection\Source Code Inspection\my-app"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,10 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.003"/>
-  <testcase name="getvalorCerto" classname="com.mycompany.app.AppTest" time="0.005">
-    <failure message="expected:&lt;10&gt; but was:&lt;5&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<10> but was:<5>
-	at com.mycompany.app.AppTest.getvalorCerto(AppTest.java:27)
-]]></failure>
-  </testcase>
+  <testcase name="testCriarPapelMoedaValido" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="TesteGetQuantidade" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testEmitirTicketComSaldoSuficiente" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testInserirDinheiroMenorQueZero" classname="com.mycompany.app.AppTest" time="0.001"/>
 </testsuite>
