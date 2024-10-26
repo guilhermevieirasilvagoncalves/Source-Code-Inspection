@@ -1,4 +1,4 @@
-package br.calebe.ticketmachine.core;
+package com.mycompany.app;  
 
 import java.util.Iterator;
 
@@ -80,8 +80,8 @@ class Troco {
 
         @Override
         public void remove() {
-            while(hasNext()){
-                next();
+            while(!hasNext()){
+                System.out.println(next().getValor());
             }
         }
     }
