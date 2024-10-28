@@ -27,14 +27,6 @@ public class AppTest
         Assert.assertEquals(2, nota.getQuantidade());
     }
 
-    @Test
-    public void testCriarPapelMoedaValido() {
-        PapelMoeda nota = new PapelMoeda(50, 2); 
-        
-        Assert.assertEquals(50, nota.getValor()); 
-        Assert.assertEquals(2, nota.getQuantidade());
-    }
-
     @Test(expected = SaldoInsuficienteException.class)
     public void testeImprimirSaldoInsuficiente() throws SaldoInsuficienteException, PapelMoedaInvalidaException {
         TicketMachine machine = new TicketMachine(20);
