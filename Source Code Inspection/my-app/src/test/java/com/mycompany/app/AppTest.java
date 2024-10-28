@@ -27,17 +27,12 @@ public class AppTest
         Assert.assertEquals(2, nota.getQuantidade());
     }
 
-    // @Test
-    // public void inserirPapelMoeda(){
-
-    //     TicketMachine tm = new TicketMachine(0);
-
-    //     tm.inserir(10);
-
-    //     int saldo = tm.getSaldo();
-
-    //     Assert.
-    // }
+    @Test(expected = SaldoInsuficienteException.class)
+    public void testeImprimirSaldoInsuficiente() throws SaldoInsuficienteException, PapelMoedaInvalidaException {
+        TicketMachine machine = new TicketMachine(20);
+        machine.inserir(10);
+        machine.imprimir();
+    }
 
     @Test
     public void testEmitirTicketComSaldoSuficiente() throws SaldoInsuficienteException, PapelMoedaInvalidaException {
